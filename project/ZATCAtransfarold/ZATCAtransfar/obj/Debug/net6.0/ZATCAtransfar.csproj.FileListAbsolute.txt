@@ -1,0 +1,15 @@
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\bin\Debug\net6.0\ZATCAtransfar.exe
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\bin\Debug\net6.0\ZATCAtransfar.deps.json
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\bin\Debug\net6.0\ZATCAtransfar.runtimeconfig.json
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\bin\Debug\net6.0\ZATCAtransfar.dll
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\bin\Debug\net6.0\ZATCAtransfar.pdb
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.csproj.AssemblyReference.cache
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.GeneratedMSBuildEditorConfig.editorconfig
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.AssemblyInfoInputs.cache
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.AssemblyInfo.cs
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.csproj.CoreCompileInputs.cache
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.dll
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\refint\ZATCAtransfar.dll
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.pdb
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ZATCAtransfar.genruntimeconfig.cache
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZATCAtransfar\obj\Debug\net6.0\ref\ZATCAtransfar.dll

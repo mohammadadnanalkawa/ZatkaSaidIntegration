@@ -1,0 +1,8 @@
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\bin\Debug\ZACATtransfar.exe.config
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\bin\Debug\ZACATtransfar.exe
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\bin\Debug\ZACATtransfar.pdb
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\obj\Debug\ZACATtransfar.csproj.AssemblyReference.cache
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\obj\Debug\ZACATtransfar.csproj.SuggestedBindingRedirects.cache
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\obj\Debug\ZACATtransfar.csproj.CoreCompileInputs.cache
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\obj\Debug\ZACATtransfar.exe
+E:\SaidInformationTechnology\project\ZATCAtransfar\ZACATtransfar\ZACATtransfar\obj\Debug\ZACATtransfar.pdb

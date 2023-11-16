@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SDKNETFrameWorkLib.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.SDKNETFrameWorkLibDelegates">
+            <summary>Contains custom delegates used for the stubs and shims of SDKNETFrameWorkLib</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic">
+            <summary>Shim type of SDKNETFrameWorkLib.BLL.EInvoiceSigningLogic</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.#ctor(SDKNETFrameWorkLib.BLL.EInvoiceSigningLogic)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.GetCurrentTimestamp">
+            <summary>Sets the Shim of EInvoiceSigningLogic.GetCurrentTimestamp()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.GetDigitalSignatureStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.GetDigitalSignature(String xmlHashing, String privateKeyContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.PopulateQRCodeXmlDocumentSByteArrayStringStringSByteArray">
+            <summary>Sets the Shim of EInvoiceSigningLogic.PopulateQRCode(XmlDocument xmlDoc, SByte[] publicKeyArr, String signature, String hashedXml, SByte[] certificateSignatureBytes)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.PopulateSignedSignaturePropertiesXmlDocumentDictionaryOfStringStringStringStringStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.PopulateSignedSignatureProperties(XmlDocument document, Dictionary`2&lt;String,String&gt; nameSpacesMap, String publicKeyHashing, String signatureTimestamp, String x509IssuerName, String serialNumber)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.PopulateUBLExtensionsXmlDocumentStringStringStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.PopulateUBLExtensions(XmlDocument xmlDoc, String digitalSignature, String signedPropertiesHashing, String xmlHashing, String certificate)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.SignDocumentStringStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.SignDocument(String xmlFilePath, String certificateContent, String privateKeyContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.TransformXMLString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.TransformXML(String xmlContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.AllInstances.getNameSpacesMap">
+            <summary>Sets the Shim of EInvoiceSigningLogic.getNameSpacesMap()</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.Constructor">
+            <summary>Sets the Shim of EInvoiceSigningLogic.EInvoiceSigningLogic()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.GetCurrentTimestamp">
+            <summary>Sets the Shim of EInvoiceSigningLogic.GetCurrentTimestamp()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.GetDigitalSignatureStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.GetDigitalSignature(String xmlHashing, String privateKeyContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.PopulateQRCodeXmlDocumentSByteArrayStringStringSByteArray">
+            <summary>Sets the Shim of EInvoiceSigningLogic.PopulateQRCode(XmlDocument xmlDoc, SByte[] publicKeyArr, String signature, String hashedXml, SByte[] certificateSignatureBytes)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.PopulateSignedSignaturePropertiesXmlDocumentDictionaryOfStringStringStringStringStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.PopulateSignedSignatureProperties(XmlDocument document, Dictionary`2&lt;String,String&gt; nameSpacesMap, String publicKeyHashing, String signatureTimestamp, String x509IssuerName, String serialNumber)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.PopulateUBLExtensionsXmlDocumentStringStringStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.PopulateUBLExtensions(XmlDocument xmlDoc, String digitalSignature, String signedPropertiesHashing, String xmlHashing, String certificate)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.SignDocumentStringStringString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.SignDocument(String xmlFilePath, String certificateContent, String privateKeyContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.TransformXMLString">
+            <summary>Sets the Shim of EInvoiceSigningLogic.TransformXML(String xmlContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceSigningLogic.getNameSpacesMap">
+            <summary>Sets the Shim of EInvoiceSigningLogic.getNameSpacesMap()</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator">
+            <summary>Shim type of SDKNETFrameWorkLib.BLL.EInvoiceValidator</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.#ctor(SDKNETFrameWorkLib.BLL.EInvoiceValidator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.AllInstances.ValidateEInvoiceStringStringString">
+            <summary>Sets the Shim of EInvoiceValidator.ValidateEInvoice(String xmlFilePath, String certificateContent, String pihContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.AllInstances.ValidatePIHXmlDocumentStringRefString">
+            <summary>Sets the Shim of EInvoiceValidator.ValidatePIH(XmlDocument xmlDoc, String&amp; errorMessage, String newPIH)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.AllInstances.ValidateSchematronsStringStringStringRef">
+            <summary>Sets the Shim of EInvoiceValidator.ValidateSchematrons(String xmlPath, String xslPath, String&amp; nodeErrors)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.AllInstances.ValidateSignatureXmlDocumentStringRefStringString">
+            <summary>Sets the Shim of EInvoiceValidator.ValidateSignature(XmlDocument xmlDoc, String&amp; errorMessage, String xmlFilePath, String certificateContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.AllInstances.ValidateXSDString">
+            <summary>Sets the Shim of EInvoiceValidator.ValidateXSD(String xmlFilePath)</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.Constructor">
+            <summary>Sets the Shim of EInvoiceValidator.EInvoiceValidator()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.DocumentValidationHandlerObjectValidationEventArgs">
+            <summary>Sets the Shim of EInvoiceValidator.DocumentValidationHandler(Object sender, ValidationEventArgs e)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.ValidateEInvoiceStringStringString">
+            <summary>Sets the Shim of EInvoiceValidator.ValidateEInvoice(String xmlFilePath, String certificateContent, String pihContent)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.ValidateSchematronsStringStringStringRef">
+            <summary>Sets the Shim of EInvoiceValidator.ValidateSchematrons(String xmlPath, String xslPath, String&amp; nodeErrors)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimEInvoiceValidator.ValidateXSDString">
+            <summary>Sets the Shim of EInvoiceValidator.ValidateXSD(String xmlFilePath)</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator">
+            <summary>Shim type of SDKNETFrameWorkLib.BLL.HashingValidator</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.#ctor(SDKNETFrameWorkLib.BLL.HashingValidator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.AllInstances.GenerateEInvoiceHashingString">
+            <summary>Sets the Shim of HashingValidator.GenerateEInvoiceHashing(String xmlFilePath)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.AllInstances.ValidateEInvoiceHashingString">
+            <summary>Sets the Shim of HashingValidator.ValidateEInvoiceHashing(String xmlFilePath)</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.Constructor">
+            <summary>Sets the Shim of HashingValidator.HashingValidator()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.GenerateEInvoiceHashingString">
+            <summary>Sets the Shim of HashingValidator.GenerateEInvoiceHashing(String xmlFilePath)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimHashingValidator.ValidateEInvoiceHashingString">
+            <summary>Sets the Shim of HashingValidator.ValidateEInvoiceHashing(String xmlFilePath)</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator">
+            <summary>Shim type of SDKNETFrameWorkLib.BLL.QRValidator</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.#ctor(SDKNETFrameWorkLib.BLL.QRValidator)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.AllInstances.FromHexStringString">
+            <summary>Sets the Shim of QRValidator.FromHexString(String hex)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.AllInstances.GenerateEInvoiceQRCodeString">
+            <summary>Sets the Shim of QRValidator.GenerateEInvoiceQRCode(String xmlFilePath)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.AllInstances.GenerateQrCodeFromValuesStringStringStringStringStringStringSByteArrayStringBooleanSByteArray">
+            <summary>Sets the Shim of QRValidator.GenerateQrCodeFromValues(String sellerName, String vatRegistrationNumber, String timeStamp, String invoiceTotal, String vatTotal, String hashedXml, SByte[] publicKey, String digitalSignature, Boolean isSimplified, SByte[] certificateSignature)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.AllInstances.ValidateEInvoiceQRCodeString">
+            <summary>Sets the Shim of QRValidator.ValidateEInvoiceQRCode(String xmlFilePath)</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.Constructor">
+            <summary>Sets the Shim of QRValidator.QRValidator()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.FromHexStringString">
+            <summary>Sets the Shim of QRValidator.FromHexString(String hex)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.GenerateEInvoiceQRCodeString">
+            <summary>Sets the Shim of QRValidator.GenerateEInvoiceQRCode(String xmlFilePath)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.GenerateQrCodeFromValuesStringStringStringStringStringStringSByteArrayStringBooleanSByteArray">
+            <summary>Sets the Shim of QRValidator.GenerateQrCodeFromValues(String sellerName, String vatRegistrationNumber, String timeStamp, String invoiceTotal, String vatTotal, String hashedXml, SByte[] publicKey, String digitalSignature, Boolean isSimplified, SByte[] certificateSignature)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.ShimQRValidator.ValidateEInvoiceQRCodeString">
+            <summary>Sets the Shim of QRValidator.ValidateEInvoiceQRCode(String xmlFilePath)</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceSigningLogic">
+            <summary>Stub type of SDKNETFrameWorkLib.BLL.EInvoiceSigningLogic</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceSigningLogic.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceSigningLogic.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceSigningLogic.InitializeStub">
+            <summary>Initializes a new instance of type StubEInvoiceSigningLogic</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceSigningLogic.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceSigningLogic.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceValidator">
+            <summary>Stub type of SDKNETFrameWorkLib.BLL.EInvoiceValidator</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceValidator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceValidator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceValidator.InitializeStub">
+            <summary>Initializes a new instance of type StubEInvoiceValidator</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceValidator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubEInvoiceValidator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.StubHashingValidator">
+            <summary>Stub type of SDKNETFrameWorkLib.BLL.HashingValidator</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubHashingValidator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubHashingValidator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubHashingValidator.InitializeStub">
+            <summary>Initializes a new instance of type StubHashingValidator</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubHashingValidator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubHashingValidator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.BLL.Fakes.StubQRValidator">
+            <summary>Stub type of SDKNETFrameWorkLib.BLL.QRValidator</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubQRValidator.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubQRValidator.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.BLL.Fakes.StubQRValidator.InitializeStub">
+            <summary>Initializes a new instance of type StubQRValidator</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubQRValidator.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.BLL.Fakes.StubQRValidator.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult">
+            <summary>Shim type of SDKNETFrameWorkLib.GeneralLogic.Result</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.#ctor(SDKNETFrameWorkLib.GeneralLogic.Result)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.ErrorMessageGet">
+            <summary>Sets the Shim of Result.get_ErrorMessage()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.ErrorMessageSetString">
+            <summary>Sets the Shim of Result.set_ErrorMessage(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.IsValidGet">
+            <summary>Sets the Shim of Result.get_IsValid()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.IsValidSetBoolean">
+            <summary>Sets the Shim of Result.set_IsValid(Boolean value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.OperationGet">
+            <summary>Sets the Shim of Result.get_Operation()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.OperationSetString">
+            <summary>Sets the Shim of Result.set_Operation(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.ResultedValueGet">
+            <summary>Sets the Shim of Result.get_ResultedValue()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.ResultedValueSetString">
+            <summary>Sets the Shim of Result.set_ResultedValue(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.SingedXMLGet">
+            <summary>Sets the Shim of Result.get_SingedXML()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.SingedXMLSetString">
+            <summary>Sets the Shim of Result.set_SingedXML(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.lstStepsGet">
+            <summary>Sets the Shim of Result.get_lstSteps()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.AllInstances.lstStepsSetListOfResult">
+            <summary>Sets the Shim of Result.set_lstSteps(List`1&lt;Result&gt; value)</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.Constructor">
+            <summary>Sets the Shim of Result.Result()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.ErrorMessageGet">
+            <summary>Sets the Shim of Result.get_ErrorMessage()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.ErrorMessageSetString">
+            <summary>Sets the Shim of Result.set_ErrorMessage(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.IsValidGet">
+            <summary>Sets the Shim of Result.get_IsValid()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.IsValidSetBoolean">
+            <summary>Sets the Shim of Result.set_IsValid(Boolean value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.OperationGet">
+            <summary>Sets the Shim of Result.get_Operation()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.OperationSetString">
+            <summary>Sets the Shim of Result.set_Operation(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.ResultedValueGet">
+            <summary>Sets the Shim of Result.get_ResultedValue()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.ResultedValueSetString">
+            <summary>Sets the Shim of Result.set_ResultedValue(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.SingedXMLGet">
+            <summary>Sets the Shim of Result.get_SingedXML()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.SingedXMLSetString">
+            <summary>Sets the Shim of Result.set_SingedXML(String value)</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.lstStepsGet">
+            <summary>Sets the Shim of Result.get_lstSteps()</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.ShimResult.lstStepsSetListOfResult">
+            <summary>Sets the Shim of Result.set_lstSteps(List`1&lt;Result&gt; value)</summary>
+        </member>
+        <member name="T:SDKNETFrameWorkLib.GeneralLogic.Fakes.StubResult">
+            <summary>Stub type of SDKNETFrameWorkLib.GeneralLogic.Result</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.GeneralLogic.Fakes.StubResult.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.StubResult.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:SDKNETFrameWorkLib.GeneralLogic.Fakes.StubResult.InitializeStub">
+            <summary>Initializes a new instance of type StubResult</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.StubResult.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SDKNETFrameWorkLib.GeneralLogic.Fakes.StubResult.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
